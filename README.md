@@ -14,7 +14,7 @@ What is a level of seniority? Well, if no-one reports to employee A, then employ
 
 I created this just to be able to control for hierarchy in some other analysis I was doing, but it might have more general use. 
 
-Note that it only works for a simple tree-like hierarchy. If the data is not set up with a single supervisor for each subordinate, with a single record per subordinate, then this function won't work.
+Note that it only works for a simple tree-like hierarchy. If the data is not set up with a single supervisor for each subordinate, with a single record per employee, then this function won't work.
 
 Let me know how it goes for you, and if you find ways to improve on this approach :) You can reach me at: matt - dot - cummins - at - stanford - dot - edu
 
