@@ -2,7 +2,7 @@ README: Hierarchy/Seniority Calculating Algorithm
 
 Let's say you have a spreadsheet full of HR data (csv format for this script - easy to fork for xlsx).
 
-It's arranged by employee, and has a bunch of attributes of that employee (their name, title, etc)
+It's arranged by employee, and has a bunch of attributes of that employee (their name, title, etc).
 
 It also includes a field that tells you who that employee reports to.
 
