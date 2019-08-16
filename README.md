@@ -12,7 +12,7 @@ This repo contains an example recursive algorithm that should take in your data,
 
 What is a level of seniority? Well, if no-one reports to employee A, then employee A has seniority level 0. For each successive person who reports to someone who reports to (...and so on) who reports to A, we add 1 to A's seniority level. So if A has a subordinate B, who has subordinate C, then A's seniority level is 2.
 
-I created this just to control for hierarchy in some other analysis I was doing, but it might hae more general use. 
+I created this just to be able to control for hierarchy in some other analysis I was doing, but it might have more general use. 
 
 Note that it only works for a simple tree-like hierarchy. If the data is not set up with a single supervisor for each subordinate, with a single record per subordinate, then this function won't work.
 
