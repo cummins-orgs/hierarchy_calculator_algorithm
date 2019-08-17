@@ -15,7 +15,7 @@ hr_report_df = pd.read_csv(relpath('../your_csv_file.csv'))
 # Extract the relevant data from the report and get it into dictionaries for processing
 
 name_list = list(hr_report_df['Name'].values)              # Assumes the names are clean i.e. exactly the same format as the 'reports to' column of your dataset
-zero_list = zero_list = list(np.full(shape=len(analysis_df['Name']),fill_value=0,dtype=np.int)) # Everyone starts at 0 seniority
+zero_list = zero_list = list(np.full(shape=len(hr_report_df['Name']),fill_value=0,dtype=np.int)) # Everyone starts at 0 seniority
 reports_to_list = list(hr_report_df['Reports To'].values)        # Note: don't strictly need to cast these as lists, but it keeps everything consistent
 seniority_dict = dict(zip(name_list,zero_list))             # Create a dictionary that stores everyone's level of seniority
 supervisor_dict = dict(zip(name_list,reports_to))           # Construct supervisor dict for each supervisee. Keys are supervisees, values are supervisors
