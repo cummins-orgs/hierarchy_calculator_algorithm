@@ -18,7 +18,7 @@ name_list = list(hr_report_df['Name'].values)              # Assumes the names a
 zero_list = zero_list = list(np.full(shape=len(hr_report_df['Name']),fill_value=0,dtype=np.int)) # Everyone starts at 0 seniority
 reports_to_list = list(hr_report_df['Reports To'].values)        # Note: don't strictly need to cast these as lists, but it keeps everything consistent
 seniority_dict = dict(zip(name_list,zero_list))             # Create a dictionary that stores everyone's level of seniority
-supervisor_dict = dict(zip(name_list,reports_to))           # Construct supervisor dict for each supervisee. Keys are supervisees, values are supervisors
+supervisor_dict = dict(zip(name_list,reports_to_list))           # Construct supervisor dict for each supervisee. Keys are supervisees, values are supervisors
 
 #############################
 # SENIORITY LEVEL FUNCTION #
