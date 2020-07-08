@@ -1,4 +1,4 @@
-README: Hierarchy/Seniority Calculating Algorithm
+README: Reporting Level/Hierarchy/Seniority Calculating Algorithm
 
 I created this just to be able to control for hierarchy in some other analysis I was doing, but it might have more general use. 
 
